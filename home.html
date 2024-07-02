@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Desmond Reese</h1>
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav role="navigation">
+            <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About Me</li></a>
+                <a href="#"><li>Education</li></a>
+                <a href="#"><li>Experience</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Projects</li></a>
+                
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="home-container">
+        <div id="home-left">
+            <h4>Hello, I'm</h4>
+            <h2>Desmond Reese</h2>
+            <h4>And I'm a <span>Web & Game Developer</span></h4>
+            <div id="home-links">
+                <a href="documents/current_resume.pdf" target="_blank">Get My Resume</a>
+                <a href="#">Contact Me</a>
+            </div>
+            
+        </div>
+        <div id="home-right">
+            <img src="images/Portrait.jpg" alt="Senior Portrait of Desmond Reese">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Desmond Reese
+    </footer>
+</body>
+</html>
